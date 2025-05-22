@@ -691,3 +691,41 @@ nav .fa-solid{
    margin-top: -40px;
    display: block;
 }
+
+
+
+/* Add this media query at the end of your CSS file */
+@media only screen and (max-width: 768px) {
+    /* Fix expertise section overlapping */
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .services-list div {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    
+    /* Adjust about section spacing */
+    .about-col-2 {
+        margin-top: 30px;
+        height: auto;
+    }
+    
+    /* Fix tab content spacing */
+    .tab-contents ul li {
+        margin: 15px 0;
+    }
+    
+    /* Ensure proper text wrapping */
+    .sub-services {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    /* Adjust header spacing */
+    .header-text {
+        margin-top: 30%;
+    }
+}
